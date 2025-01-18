@@ -1,0 +1,1 @@
+To fix unit mismatches, always include units (e.g., px, %, em) with all values in your `calc()` expressions.  For complex calculations, use parentheses to explicitly define the order of operations and enhance readability.  For example, to ensure addition is performed before multiplication use `height: calc((20px + 10px) * 2);` which results in `height: 60px`.
